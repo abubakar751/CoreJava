@@ -1,10 +1,12 @@
 package com.string;
 
+import java.util.Arrays;
+
 public class StringMethods {
     public static void main(String[] args) {
 
-        String string = "Hello";
-
+        String string = "Hello Center ";
+        String[] es = string.split("e",4);
         String string1="World";
         String string2="Abubakar";
        string.join(string1);
@@ -19,5 +21,12 @@ public class StringMethods {
         System.out.println(string.concat(string1)); // it will join both  it returns String HelloWorld
         System.out.println(string2.replace("a","e"));//it will replace from e in place of a
         System.out.println(string.equalsIgnoreCase(string1));
+        System.out.println(Arrays.toString(es));
+        System.out.println(string.intern());
+
+        System.out.println(string.indexOf("l"));
+        System.out.println(string.indexOf("o",3));
+        System.out.println(string.valueOf("ads"));
+
     }
 }
