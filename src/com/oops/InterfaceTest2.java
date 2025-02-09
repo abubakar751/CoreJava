@@ -1,16 +1,12 @@
 package com.oops;
-class SimpleClass{
-    public void display(){
-        System.out.println("Hello Darakshan Anjum");
-    }
-}
+
 interface Animal  {
 int show2();
 }
 interface Animal2  {
     int show();
 }
-public class InterfaceTest2 implements Animal2{
+public class InterfaceTest2 implements Animal,Animal2{
 
     @Override
     public int show() {
