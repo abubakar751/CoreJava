@@ -8,12 +8,10 @@ interface Animal2  {
 }
 public class InterfaceTest2 implements Animal,Animal2{
 
-    @Override
     public int show() {
         return 2;
     }
 
-    @Override
     public int show2() {
         return 4;
     }

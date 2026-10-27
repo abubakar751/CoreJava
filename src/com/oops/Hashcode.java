@@ -10,7 +10,6 @@ public class Hashcode {
 
     }
 
-    @Override
     public String toString() {
         return  "age  "+age +" name "+name;
     }

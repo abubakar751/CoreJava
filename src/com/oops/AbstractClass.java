@@ -11,7 +11,7 @@ public class AbstractClass extends  Hello{
         abstractClass.hello();
 
     }
-    @Override
+   
     void hello() {
         System.out.println("Hello , i'm abstract method");
     }

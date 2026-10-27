@@ -4,7 +4,6 @@ interface A{
 }
 public class OverridingTest implements A {
 
-    @Override
     public int add(int a, int b) {
         return a+b;
     }

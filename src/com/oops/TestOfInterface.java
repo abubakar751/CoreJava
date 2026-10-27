@@ -10,7 +10,6 @@ public class TestOfInterface implements  Interface1 {
 
     }
 
-    @Override
     public int show() {
         return 10;
     }

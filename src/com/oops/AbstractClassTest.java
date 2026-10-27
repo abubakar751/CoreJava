@@ -8,7 +8,6 @@ package com.oops;
 
  }
 public class AbstractClassTest  extends  Test4{
-    @Override
     int display() {
         return 3;
     }
